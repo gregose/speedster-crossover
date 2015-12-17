@@ -1,6 +1,6 @@
 # Ose Audio Labs' Speedster Crossover
 
-Crossover PCB for [Paul Carmody's Speedster speakers](https://sites.google.com/site/undefinition/speedster). Designed with V-cut stackable boards for high and low-pass circuits.
+Crossover PCB layout for [Paul Carmody's Speedster speakers](https://sites.google.com/site/undefinition/speedster). Designed with V-cut stackable boards for high and low-pass circuits.
 
 ### Render
 
@@ -13,7 +13,7 @@ Crossover PCB for [Paul Carmody's Speedster speakers](https://sites.google.com/s
 
 ### BOM
 
-Layout was designed for the following components. Extra pads have been added to allow the use of physically smaller capacitors.
+The layout was designed for the following components. Extra pads have been added to allow the use of physically smaller capacitors.
 
 Ref | Component | Link 
 ----| --------- | -------------
