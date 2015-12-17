@@ -1,0 +1,293 @@
+(pcb "/Users/gregose/Documents/kicad/speedster-crossover/speedster-crossover.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.0-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (rect pcb 60800 -29800 231200 -148200)
+    )
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "components:OAL_inductor_0.25-20AWG-Vertical"
+      (place L1 202000 -48000 front 270 (PN 0.25m))
+    )
+    (component "components:OAL_inductor_1.5-18AWG"
+      (place L2 92000 -68000 front 0 (PN 1.5m))
+    )
+    (component "components:OAL_inductor_0.35-18AWG"
+      (place L3 203000 -122000 front 0 (PN 0.35m))
+    )
+    (component "components:TerminalBlock_Pheonix_PT1.5-4pol-RA"
+      (place X1 159000 -134000 front 0 (PN SPEAKERS))
+    )
+    (component "components:TerminalBlock_Pheonix_PT1.5-2pol-RA"
+      (place X2 144000 -134000 front 0 (PN INPUT))
+    )
+    (component components:OAL_cap_audyn_4.7
+      (place C2 99000 -122500 front 0 (PN 4.7u))
+      (place C3 143000 -68000 front 90 (PN 4.7u))
+    )
+    (component components:OAL_cap_audyn_2.2
+      (place C1 203000 -81000 front 0 (PN 2.2u))
+    )
+    (component components:OAL_resistor_MRA12
+      (place R2 155000 -114000 front 180 (PN 8R))
+      (place R1 171000 -59000 front 90 (PN 10R))
+    )
+  )
+  (library
+    (image "components:OAL_inductor_0.25-20AWG-Vertical"
+      (outline (path signal 1000  -13500 8000  -13500 -8000))
+      (outline (path signal 1000  13500 8000  13500 -8000))
+      (outline (path signal 1000  -13500 -8000  13500 -8000))
+      (outline (path signal 1000  -13500 8000  13500 8000))
+      (pin Round[A]Pad_2500_um 2 3000 15000)
+      (pin Round[A]Pad_2500_um 1 -3000 15000)
+      (keepout "" (circle F.Cu 4000 -3000 9000))
+      (keepout "" (circle B.Cu 4000 -3000 9000))
+      (keepout "" (circle F.Cu 4000 3000 -9000))
+      (keepout "" (circle B.Cu 4000 3000 -9000))
+      (keepout "" (circle F.Cu 4000 3000 9000))
+      (keepout "" (circle B.Cu 4000 3000 9000))
+      (keepout "" (circle F.Cu 4000 -3000 -9000))
+      (keepout "" (circle B.Cu 4000 -3000 -9000))
+    )
+    (image "components:OAL_inductor_1.5-18AWG"
+      (outline (path signal 1000  14000 0  13314.8 -4326.24  11326.2 -8228.99  8228.99 -11326.2
+            4326.24 -13314.8  0 -14000  -4326.24 -13314.8  -8228.99 -11326.2
+            -11326.2 -8228.99  -13314.8 -4326.24  -14000 0  -13314.8 4326.24
+            -11326.2 8228.99  -8228.99 11326.2  -4326.24 13314.8  0 14000
+            4326.24 13314.8  8228.99 11326.2  11326.2 8228.99  13314.8 4326.24))
+      (outline (path signal 1000  29000 0  27580.6 -8961.49  23461.5 -17045.8  17045.8 -23461.5
+            8961.49 -27580.6  0 -29000  -8961.49 -27580.6  -17045.8 -23461.5
+            -23461.5 -17045.8  -27580.6 -8961.49  -29000 0  -27580.6 8961.49
+            -23461.5 17045.8  -17045.8 23461.5  -8961.49 27580.6  0 29000
+            8961.49 27580.6  17045.8 23461.5  23461.5 17045.8  27580.6 8961.49))
+      (pin Round[A]Pad_3000_um 1 4000 11000)
+      (pin Round[A]Pad_3000_um 2 -4000 31000)
+      (keepout "" (circle F.Cu 4000 -8000 8000))
+      (keepout "" (circle B.Cu 4000 -8000 8000))
+      (keepout "" (circle F.Cu 4000 -22000 22000))
+      (keepout "" (circle B.Cu 4000 -22000 22000))
+      (keepout "" (circle F.Cu 4000 22000 22000))
+      (keepout "" (circle B.Cu 4000 22000 22000))
+      (keepout "" (circle F.Cu 4000 8000 8000))
+      (keepout "" (circle B.Cu 4000 8000 8000))
+      (keepout "" (circle F.Cu 4000 0 -31000))
+      (keepout "" (circle B.Cu 4000 0 -31000))
+      (keepout "" (circle F.Cu 4000 0 -12000))
+      (keepout "" (circle B.Cu 4000 0 -12000))
+    )
+    (image "components:OAL_inductor_0.35-18AWG"
+      (outline (path signal 1000  12250 0  11650.4 -3785.46  9910.46 -7200.37  7200.37 -9910.46
+            3785.46 -11650.4  0 -12250  -3785.46 -11650.4  -7200.37 -9910.46
+            -9910.46 -7200.37  -11650.4 -3785.46  -12250 0  -11650.4 3785.46
+            -9910.46 7200.37  -7200.37 9910.46  -3785.46 11650.4  0 12250
+            3785.46 11650.4  7200.37 9910.46  9910.46 7200.37  11650.4 3785.46))
+      (outline (path signal 1000  22500 0  21398.8 -6952.88  18202.9 -13225.2  13225.2 -18202.9
+            6952.88 -21398.8  0 -22500  -6952.88 -21398.8  -13225.2 -18202.9
+            -18202.9 -13225.2  -21398.8 -6952.88  -22500 0  -21398.8 6952.88
+            -18202.9 13225.2  -13225.2 18202.9  -6952.88 21398.8  0 22500
+            6952.88 21398.8  13225.2 18202.9  18202.9 13225.2  21398.8 6952.88))
+      (pin Round[A]Pad_3000_um 1 3000 9000)
+      (pin Round[A]Pad_3000_um 2 -3000 25000)
+      (keepout "" (circle F.Cu 4000 -7000 7000))
+      (keepout "" (circle B.Cu 4000 -7000 7000))
+      (keepout "" (circle F.Cu 4000 -17000 17000))
+      (keepout "" (circle B.Cu 4000 -17000 17000))
+      (keepout "" (circle F.Cu 4000 17000 17000))
+      (keepout "" (circle B.Cu 4000 17000 17000))
+      (keepout "" (circle F.Cu 4000 7000 7000))
+      (keepout "" (circle B.Cu 4000 7000 7000))
+      (keepout "" (circle F.Cu 4000 0 -24000))
+      (keepout "" (circle B.Cu 4000 0 -24000))
+      (keepout "" (circle F.Cu 4000 0 -10000))
+      (keepout "" (circle B.Cu 4000 0 -10000))
+    )
+    (image "components:TerminalBlock_Pheonix_PT1.5-4pol-RA"
+      (outline (path signal 50  -2700 5700  17700 5700))
+      (outline (path signal 50  -2700 -7700  -2700 5700))
+      (outline (path signal 50  17700 -7700  -2700 -7700))
+      (outline (path signal 50  17700 5700  17700 -7700))
+      (outline (path signal 150  12500 -6000  12500 -7500))
+      (outline (path signal 150  17000 -100  16902.1 -718.034  16618 -1275.57  16175.6 -1718.03
+            15618 -2002.11  15000 -2100  14382 -2002.11  13824.4 -1718.03
+            13382 -1275.57  13097.9 -718.034  13000 -100  13097.9 518.034
+            13382 1075.57  13824.4 1518.03  14382 1802.11  15000 1900  15618 1802.11
+            16175.6 1518.03  16618 1075.57  16902.1 518.034))
+      (outline (path signal 150  12000 -100  11902.1 -718.034  11618 -1275.57  11175.6 -1718.03
+            10618 -2002.11  10000 -2100  9381.97 -2002.11  8824.43 -1718.03
+            8381.97 -1275.57  8097.89 -718.034  8000 -100  8097.89 518.034
+            8381.97 1075.57  8824.43 1518.03  9381.97 1802.11  10000 1900
+            10618 1802.11  11175.6 1518.03  11618 1075.57  11902.1 518.034))
+      (outline (path signal 150  7500 -6000  7500 -7500))
+      (outline (path signal 150  2500 -6000  2500 -7500))
+      (outline (path signal 150  7000 -100  6902.11 -718.034  6618.03 -1275.57  6175.57 -1718.03
+            5618.03 -2002.11  5000 -2100  4381.97 -2002.11  3824.43 -1718.03
+            3381.97 -1275.57  3097.89 -718.034  3000 -100  3097.89 518.034
+            3381.97 1075.57  3824.43 1518.03  4381.97 1802.11  5000 1900
+            5618.03 1802.11  6175.57 1518.03  6618.03 1075.57  6902.11 518.034))
+      (outline (path signal 150  2000 -100  1902.11 -718.034  1618.03 -1275.57  1175.57 -1718.03
+            618.034 -2002.11  0 -2100  -618.034 -2002.11  -1175.57 -1718.03
+            -1618.03 -1275.57  -1902.11 -718.034  -2000 -100  -1902.11 518.034
+            -1618.03 1075.57  -1175.57 1518.03  -618.034 1802.11  0 1900
+            618.034 1802.11  1175.57 1518.03  1618.03 1075.57  1902.11 518.034))
+      (outline (path signal 150  -2500 -2600  17500 -2600))
+      (outline (path signal 150  -2500 2300  17500 2300))
+      (outline (path signal 150  -2500 -6000  17500 -6000))
+      (outline (path signal 150  -2500 -7500  17500 -7500))
+      (outline (path signal 150  17500 -7500  17500 5500))
+      (outline (path signal 150  17500 5500  -2500 5500))
+      (outline (path signal 150  -2500 5500  -2500 -7500))
+      (pin Round[A]Pad_2500_um 4 15000 0)
+      (pin Round[A]Pad_2500_um 3 10000 0)
+      (pin Rect[A]Pad_2500x2500_um 1 0 0)
+      (pin Round[A]Pad_2500_um 2 5000 0)
+    )
+    (image "components:TerminalBlock_Pheonix_PT1.5-2pol-RA"
+      (outline (path signal 50  -2700 5700  7700 5700))
+      (outline (path signal 50  -2700 -7700  -2700 5700))
+      (outline (path signal 50  7700 -7700  -2700 -7700))
+      (outline (path signal 50  7700 5700  7700 -7700))
+      (outline (path signal 150  2500 -6000  2500 -7500))
+      (outline (path signal 150  7000 -100  6902.11 -718.034  6618.03 -1275.57  6175.57 -1718.03
+            5618.03 -2002.11  5000 -2100  4381.97 -2002.11  3824.43 -1718.03
+            3381.97 -1275.57  3097.89 -718.034  3000 -100  3097.89 518.034
+            3381.97 1075.57  3824.43 1518.03  4381.97 1802.11  5000 1900
+            5618.03 1802.11  6175.57 1518.03  6618.03 1075.57  6902.11 518.034))
+      (outline (path signal 150  2000 -100  1902.11 -718.034  1618.03 -1275.57  1175.57 -1718.03
+            618.034 -2002.11  0 -2100  -618.034 -2002.11  -1175.57 -1718.03
+            -1618.03 -1275.57  -1902.11 -718.034  -2000 -100  -1902.11 518.034
+            -1618.03 1075.57  -1175.57 1518.03  -618.034 1802.11  0 1900
+            618.034 1802.11  1175.57 1518.03  1618.03 1075.57  1902.11 518.034))
+      (outline (path signal 150  -2500 -2600  7500 -2600))
+      (outline (path signal 150  -2500 2300  7500 2300))
+      (outline (path signal 150  -2500 -6000  7500 -6000))
+      (outline (path signal 150  -2500 -7500  7500 -7500))
+      (outline (path signal 150  7500 -7500  7500 5500))
+      (outline (path signal 150  7500 5500  -2500 5500))
+      (outline (path signal 150  -2500 5500  -2500 -7500))
+      (pin Rect[A]Pad_2500x2500_um 1 0 0)
+      (pin Round[A]Pad_2500_um 2 5000 0)
+    )
+    (image components:OAL_cap_audyn_4.7
+      (outline (path signal 1000  2000 0  12000 0))
+      (outline (path signal 1000  2000 4000  2000 -4000))
+      (outline (path signal 1000  -2000 4000  -2000 -4000))
+      (outline (path signal 1000  -12000 0  -2000 0))
+      (outline (path signal 1000  -31500 -18000  31500 -18000))
+      (outline (path signal 1000  -31500 18000  31500 18000))
+      (outline (path signal 1000  31500 18000  31500 -18000))
+      (outline (path signal 1000  -31500 18000  -31500 -18000))
+      (pin Round[A]Pad_4000_um 1 -36000 0)
+      (pin Round[A]Pad_4000_um 2 36000 0)
+    )
+    (image components:OAL_cap_audyn_2.2
+      (outline (path signal 1000  13000 0  2000 0))
+      (outline (path signal 1000  2000 4000  2000 -4000))
+      (outline (path signal 1000  -2000 4000  -2000 -4000))
+      (outline (path signal 1000  -13000 0  -2000 0))
+      (outline (path signal 1000  -21500 -13000  21500 -13000))
+      (outline (path signal 1000  -21500 13000  21500 13000))
+      (outline (path signal 1000  21500 13000  21500 -13000))
+      (outline (path signal 1000  -21500 13000  -21500 -13000))
+      (pin Round[A]Pad_4000_um 1 -26000 0)
+      (pin Round[A]Pad_4000_um 2 26000 0)
+    )
+    (image components:OAL_resistor_MRA12
+      (outline (path signal 1000  -16000 -4000  16000 -4000))
+      (outline (path signal 1000  -16000 4000  16000 4000))
+      (outline (path signal 1000  16000 4000  16000 -4000))
+      (outline (path signal 1000  -16000 4000  -16000 -4000))
+      (pin Round[A]Pad_4000_um 1 -20000 0)
+      (pin Round[A]Pad_4000_um 2 20000 0)
+    )
+    (padstack Round[A]Pad_2500_um
+      (shape (circle F.Cu 2500))
+      (shape (circle B.Cu 2500))
+      (attach off)
+    )
+    (padstack Round[A]Pad_3000_um
+      (shape (circle F.Cu 3000))
+      (shape (circle B.Cu 3000))
+      (attach off)
+    )
+    (padstack Round[A]Pad_4000_um
+      (shape (circle F.Cu 4000))
+      (shape (circle B.Cu 4000))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2500x2500_um
+      (shape (rect F.Cu -1250 -1250 1250 1250))
+      (shape (rect B.Cu -1250 -1250 1250 1250))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(C1-Pad1)"
+      (pins L1-1 C2-1 C1-1)
+    )
+    (net "Net-(C1-Pad2)"
+      (pins C1-2 R1-1)
+    )
+    (net "Net-(C2-Pad2)"
+      (pins C2-2 R2-2)
+    )
+    (net "Net-(C3-Pad1)"
+      (pins L2-1 L3-2 C3-1)
+    )
+    (net "INPUT-"
+      (pins L1-2 X1-4 X1-2 X2-2 C3-2)
+    )
+    (net INPUT+
+      (pins L2-2 X2-1 R1-2)
+    )
+    (net WOOFER+
+      (pins L3-1 X1-1)
+    )
+    (net TWEETER+
+      (pins X1-3 R2-1)
+    )
+    (class kicad_default "" INPUT+ "INPUT-" "Net-(C1-Pad1)" "Net-(C1-Pad2)"
+      "Net-(C2-Pad2)" "Net-(C3-Pad1)" TWEETER+ WOOFER+
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
