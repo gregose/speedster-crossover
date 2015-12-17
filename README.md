@@ -25,5 +25,5 @@ C3  | AUDYN CAP PLUS MKP 4.70 MF/ 800 V 2% AXIAL 63X35 | https://www.intertechni
 L1  | Meniscus Audio .25mH, Perfect Layer 20ga. | http://meniscusaudio.com/025mh-20ga-p-597.html
 L2  | Meniscus Audio 1.5mH, Layer  Wound 18ga. | http://meniscusaudio.com/150mh-18-ga-p-638.html
 L3  | Meniscus Audio .35mH, Layer  Wound 18ga. | http://meniscusaudio.com/035mh-18-ga-p-622.html
-X1  | Phoenix Contact 1730418 (CONN TERM BLOCK 4POS 5.08MM) | http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=185999766 
-X2  | Phoenix Contact 1730434 (CONN TERM BLOCK 6POS 5.08MM) | http://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&itemSeq=185965446
+X1  | Phoenix Contact 1730418 (CONN TERM BLOCK 4POS 5.08MM) | http://www.digikey.com/product-search/en?mpart=1730418&vendor=277
+X2  | Phoenix Contact 1730434 (CONN TERM BLOCK 6POS 5.08MM) | http://www.digikey.com/product-search/en?mpart=1730434&vendor=277
