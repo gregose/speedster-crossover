@@ -1,4 +1,4 @@
-# Ose Audio Labs' Speedster Crossover
+# Speedster Crossover
 
 Crossover PCB layout for [Paul Carmody's Speedster speakers](https://sites.google.com/site/undefinition/speedster). Designed with V-cut stackable boards for high and low-pass circuits.
 
@@ -13,7 +13,7 @@ Crossover PCB layout for [Paul Carmody's Speedster speakers](https://sites.googl
 
 ### BOM
 
-The layout was designed for the following components. Extra pads have been added to allow the use of physically smaller capacitors.
+The layout was designed for the following components. Extra pads have been added to allow the use of physically smaller capacitors. Additional pins have been added to X1 and X2 to support the use of through-hole quick disconnects.
 
 Ref | Component | Link 
 ----| --------- | -------------
@@ -27,3 +27,4 @@ L2  | Meniscus Audio 1.5mH, Layer  Wound 18ga. | http://meniscusaudio.com/150mh-
 L3  | Meniscus Audio .35mH, Layer  Wound 18ga. | http://meniscusaudio.com/035mh-18-ga-p-622.html
 X1  | Phoenix Contact 1730418 (CONN TERM BLOCK 4POS 5.08MM) | http://www.digikey.com/product-search/en?mpart=1730418&vendor=277
 X2  | Phoenix Contact 1730434 (CONN TERM BLOCK 6POS 5.08MM) | http://www.digikey.com/product-search/en?mpart=1730434&vendor=277
+X1/2 Alt. | PCB quick disconnect terminal | http://www.mcmaster.com/#7956k5/=10cwxu4
